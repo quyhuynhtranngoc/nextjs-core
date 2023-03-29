@@ -13,6 +13,9 @@ function NavbarMenu() {
         <Link href="/posts" passHref>
           <Nav.Link>Posts</Nav.Link>
         </Link>
+        <Link href="/books" passHref>
+          <Nav.Link>Books</Nav.Link>
+        </Link>
         <Link href="/jokes/random" passHref>
           <Nav.Link>Jokes</Nav.Link>
         </Link>

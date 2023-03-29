@@ -29,7 +29,7 @@ function Posts({ posts }) {
 // demo thi vao npm run build va npm run start sau do click vao` post thi khong thay tab network goi api
 
 export const getStaticProps = async () => {
-  const posts = await getPosts();
+  const posts = await getPosts(10);
   return {
     props: {
       posts,
